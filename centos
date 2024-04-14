@@ -119,7 +119,7 @@ login local
 Int Gi 0/1
 no shutdown
 no switchport
-ip add 10._._.4 255.255.255.0
+ip add 10.22.22.4 255.255.255.0
 Int Vlan 1
 no shutdown
 ip add 10.22.1.4 255.255.255.0
@@ -134,7 +134,7 @@ ip add 10._.50.4 255.255.255.0
 description IPCCTV
 Int Vlan 100
 no shutdown
-ip add 10._.100.4 255.255.255.0
+ip add 10.22.100.4 255.255.255.0
 description VOICEVLAN
 end
 conf t
